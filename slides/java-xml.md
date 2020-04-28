@@ -1420,7 +1420,7 @@ Létrehozásuk `xsd:complexType` elemmel történik
 ---
 
 ## Validálás séma alapján Java-ban
-
+ * nem parsolás közben történik
 ```java
 SchemaFactory factory = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
 Schema schema = factory.newSchema(
